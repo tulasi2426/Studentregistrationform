@@ -1,0 +1,85 @@
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+  }
+  body{
+    background-color: #93C6E7;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-error {
+    color: red;
+  font-size: 12px;
+  margin-top: 5px;
+    
+  }
+
+  label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: start;
+    width: 400px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;   
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="password"] {
+    padding: 0.5rem;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+  }
+  
+  select{
+    padding: 0.5rem;    
+    flex: 0 0 200px;
+    margin-left: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+  }
+  
+  button[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: #FEC868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button{
+    width: 100px;
+    padding: 10px;
+    margin-left: 200px;
+    font-size: 18px;
+    background-color: #FEC868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
